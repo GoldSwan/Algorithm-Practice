@@ -1,0 +1,12 @@
+
+# Created by https://www.gitignore.io/api/c++,java,eclipse,visualstudio
+# Edit at https://www.gitignore.io/?templates=c++,java,eclipse,visualstudio
+
+# 모든 파일 제외
+/*
+
+# algospot, programers 디렉터리들만 추가 가능하도록
+
+!programers/
+!algospot/
+!.gitignore
