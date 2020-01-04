@@ -12,17 +12,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;-진행진도<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 문제 해결 전략<br>
 &nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 모의고사(1_mockTest) : https://programmers.co.kr/learn/courses/30/lessons/42840 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 록페스티벌(1_rockFestival) : https://algospot.com/judge/problem/read/FESTIVAL <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 모의고사(mockTest) : https://programmers.co.kr/learn/courses/30/lessons/42840 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 록페스티벌(rockFestival) : https://algospot.com/judge/problem/read/FESTIVAL <br><br>
 2주차(2019.12.29)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;-진행진도<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 코딩과 디버깅 (~ 변수 범위의 이해 까지)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 괄호변환(2_bracketTransformation) : https://programmers.co.kr/learn/courses/30/lessons/60058 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 보글게임(2_boggle) : https://algospot.com/judge/problem/read/BOGGLE <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 괄호변환(bracketTransformation) : https://programmers.co.kr/learn/courses/30/lessons/60058 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 보글게임(boggle) : https://algospot.com/judge/problem/read/BOGGLE <br><br>
 3주차(2020.01.05)<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;-진행진도<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 코딩과 디버깅 (~ 실수 자료형의 이해 까지)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 소수 찾기(3_findPrimeNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42839 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 게임판 덮기(3_boardCover) : https://algospot.com/judge/problem/read/BOARDCOVER <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 소수 찾기(findPrimeNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42839 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 게임판 덮기(boardCover) : https://algospot.com/judge/problem/read/BOARDCOVER <br><br>
