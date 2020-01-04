@@ -9,14 +9,12 @@
 TEST 결과 :  100~120ms
 *********************************************************************/
 
-package algorithm.algospot;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Vector;
 
-public class BOGGLE {
+public class Main {
 	final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static String[][] boogleGameBoard = new String[5][5];//보글 게임판
 	static String[] knownWords;//알고있는 단어들
