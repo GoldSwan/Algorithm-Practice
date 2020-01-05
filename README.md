@@ -32,3 +32,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 오픈채팅방(openChatRoom) : https://programmers.co.kr/learn/courses/30/lessons/42888 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 소풍 (picnic) : https://algospot.com/judge/problem/read/PICNIC <br><br>
+5주차(2020.01.19)<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;-진행진도<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고리즘의 시간 복잡도 분석 (~ 4.7 계산 복잡도 클래스 까지 p115 ~ p126)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 가사검색(lyricsSearch) : https://programmers.co.kr/learn/courses/30/lessons/60060 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - Traveling Salesman Problem 1 (TSP1) : https://algospot.com/judge/problem/read/TSP1 <br><br>
