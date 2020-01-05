@@ -26,3 +26,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 소수 찾기(findPrimeNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42839 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 게임판 덮기(boardCover) : https://algospot.com/judge/problem/read/BOARDCOVER <br><br>
+4주차(2020.01.12)<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;-진행진도<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고리즘의 시간 복잡도 분석 (~ 4.5 시간복잡도 까지 p88 ~ p114)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;-문제풀이<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 프로그래머스 - 오픈채팅방(openChatRoom) : https://programmers.co.kr/learn/courses/30/lessons/42888 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 알고스팟 - 소풍 (picnic) : https://algospot.com/judge/problem/read/PICNIC <br><br>
