@@ -1,23 +1,26 @@
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Scanner;
 import java.util.Set;
 
-public class Solution {
+public class programmers42839 {
 	static int inputLength;
 	static String input;
 	static Set<Integer> candidateNumbers;
 	static boolean[] isUsed;
 	
-	public static int solution(String Numbers) {
-		 
-        input = Numbers;
+	public static void main(String args[]) {
+		Scanner s = new Scanner(System.in);
+		input = s.next();
+		
 		candidateNumbers = new HashSet<Integer>();
 		
 		inputLength = input.length();
 		boolean[] isUsed = new boolean[inputLength];
-		for(int numbersToChoose=1; numbersToChoose<=inputLength; numbersToChoose++) {
-			chooseNumber(numbersToChoose, "", Arrays.copyOf(isUsed, inputLength), 1);
+		
+		for(int howManyToAppend=1; howManyToAppend<=inputLength; howManyToAppend++) {
+			generateNumber(howManyToAppend, "", Arrays.copyOf(isUsed, inputLength), 1);
 		}
 		
 
@@ -26,34 +29,36 @@ public class Solution {
 
 		Iterator<Integer> it = candidateNumbers.iterator();
 		
-		
-		int number;
-		int count=0;
+		int candidateNumber;
+		int noSosuCount=0;
 		
 		while( it.hasNext() ) {
-			number = it.next();
-			for(int i=2; i<number; i++) {
-				if( number%i==0 ) {
-					count++;
-					break;
-				}
-			}
+			candidateNumber = it.next();
+			if( !isPrime(candidateNumber) ) 
+				noSosuCount++;
 		}
 		
-		return candidateNumbers.size() - count;
+		System.out.print( candidateNumbers.size() - noSosuCount);
 	}
 	
-	public static void chooseNumber(int numbersToChoose, String candidateNumber, boolean[] isUsed, int depth) {
-		if(numbersToChoose <= 0) { return; }
+	public static void generateNumber(int howManyToAppend, String numberBeforeAppend, boolean[] isUsed, int depth) {
+		if(howManyToAppend < 1)  return; 
 		
 		for(int i=0; i<inputLength; i++) {
-			if(depth==1) Arrays.fill(isUsed, false);
 			if(isUsed[i]==false) {
 				isUsed[i] = true;
-				String newNumber = candidateNumber + input.charAt(i);
-				candidateNumbers.add( Integer.parseInt(newNumber) );
-				chooseNumber(numbersToChoose-1, newNumber, Arrays.copyOf(isUsed, inputLength), depth+1);
+				String numberAfterAppend = numberBeforeAppend + input.charAt(i);
+				candidateNumbers.add( Integer.parseInt(numberAfterAppend) );
+				generateNumber(howManyToAppend-1, numberAfterAppend, Arrays.copyOf(isUsed, inputLength), depth+1);
+				isUsed[i] = false;
 			}
 		}
+	}
+	
+	public static boolean isPrime(int number) {
+		for(int i=2; i*i<=number; i++)
+			if( number%i==0 ) 
+				return false;
+		return true;
 	}
 }
