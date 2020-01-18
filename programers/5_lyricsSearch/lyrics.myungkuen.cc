@@ -10,10 +10,12 @@
        문자 검색해서 dfs로 마저 탐색하고 카운트를 올린다.
     3. wc(wild card)-last인 쿼리는 트리에서 문자를 검색해서 들어간다음 
        depth가 wc 수와 같은 노드에서만 자식 노드 수를 카운트에 더한다.
+
 --- 2 ---
     1. 1과 같이 하되 trie을 정순, 역순 두 개 만든다. 
     2. wc(wild card)-first인 쿼리는 역순 trie로 탐색하고 자식노드 갯수를 센다.
     3. wc(wild card)-last인 쿼리는 정순 trie로 탐색하고 자식노드 갯수를 센다.
+
 --- 3 ---
     1. 1과 같이 하되 쿼리가 중복될 경우 이전에 평가된 값을 사용하게 한다.
 
@@ -28,7 +30,7 @@
 TEST 결과 : 
     1. 프로그래머스 효율성 다 떨어짐
     2. 프로그래머스 효율성 5 통과
-    3. 프로그래머스 효율성 5 통과
+    3. 프로그래머스 통과
 **********************************************************************/
 #include <string>
 #include <vector>
@@ -45,6 +47,8 @@ inline bool isNullChar(const char c) { return c == '\0'; }
 inline const char* firstOf(const std::string& str) { return &str[0]; }
 inline const char* lastOf(const std::string& str) { return &str[str.size()-1]; }
 
+/* 해시 이용한 Trie 구현, 역순 Trie도 추가하기 위해 
+ * '시작 노드'와 '다음 노드'를 추상메소드로 나타냄*/
 class Trie {
 protected:
     bool last;
@@ -62,6 +66,10 @@ public:
         this->nexts.clear();
     }
 
+    int MatchCount(const std::string& query) {
+        return this->calcMatchCountAt(this->firstKey(query));
+    }
+
     static TriePtr MakeTrie(const StringVector& strings) {
         TriePtr header = new Trie();
         
@@ -69,10 +77,6 @@ public:
             header->insert(firstOf(string));
 
         return header;
-    }
-
-    int MatchCount(const std::string& query) {
-        return this->calcMatchCountAt(this->firstKey(query));
     }
 
 protected:
@@ -92,7 +96,7 @@ protected:
         if(isNullChar(*key) && this->last)
             return 1;
 
-        if(isWildCard(*key)) 
+        if(isWildCard(*key))
             return this->calcMatchCountAtAll(key);
 
         if(this->hasNoChild(*key))
@@ -110,7 +114,7 @@ protected:
         return ret;
     }
 
-    bool hasNoChild(const char& key) {
+    inline bool hasNoChild(const char& key) {
         return this->nexts.find(key) == this->nexts.end();
     }
 
@@ -127,6 +131,7 @@ protected:
     }
 };
 
+/*주어진 문자열을 역순으로 검색하는 Trie*/
 class ReverseTrie : public Trie {
 public:
     static TriePtr MakeTrie(const StringVector& strings) {
@@ -164,12 +169,14 @@ std::vector<int> solution(StringVector words, StringVector queries) {
     for(int i=0; i!=numQueries; ++i) {
         auto& query = queries[i];
 
+        /*this query evaluated before*/
         if(evaledMatchCounts.find(query) != evaledMatchCounts.end()) {
-            /*this query evaluated before*/
             matchCounts[i] = evaledMatchCounts[query];
             continue;
         }
         
+        /* wildcard가 앞에 있는 경우 문자열의 뒤에서부터,
+         * wildcard가 뒤에 있는 경우 문자열의 앞에서부터 검색*/
         matchCounts[i] = evaledMatchCounts[query] = isWildCard(query[0])?
             wordTrieReverse->MatchCount(query) : wordTrie->MatchCount(query);
     }
