@@ -23,8 +23,8 @@ using ID_T = unsigned int;
 using NodePtr = Node*;
 using Nodes = std::vector<NodePtr>;
 
-// 각 노드를 잇는 경로의 cost를 저장.
-// 두 노드의 id를 주면 둘을 잇는 cost를 반환.
+/* 각 노드를 잇는 경로의 cost를 저장. 
+ * 두 노드의 id를 주면 둘을 잇는 cost를 반환. */
 class CostMap {
 private:
     std::vector<std::vector<double>> costmap;
@@ -51,8 +51,8 @@ public:
 CostMap* CostMap::instance = nullptr;
 
 
-// Graph의 노드, 
-// 인접 노드를 벡터로 저장하고 모든 인접노드를 순회하는 용도로 사용하도록 만들어짐.
+/* Graph의 노드, 
+ * 인접 노드를 벡터로 저장하고 모든 인접노드를 순회하는 용도로 사용하도록 만들어짐. */
 class Node {
 public: ID_T id;
 public: bool isVisit;
@@ -98,7 +98,7 @@ public:
 };
 
 
-// 모든 노드들의 완전 연결 그래프 생성
+/* 모든 노드들의 완전 연결 그래프 생성 */
 class CompleteGraph {
 public: 
     static Nodes& Make(const ID_T& nodeNum, Nodes* nodes) {
