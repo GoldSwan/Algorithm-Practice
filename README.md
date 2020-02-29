@@ -15,6 +15,7 @@
 * 순위 (ranking) : https://programmers.co.kr/learn/courses/30/lessons/49191
 * 가장 큰 수(biggestNumber) : https://programmers.co.kr/learn/courses/30/lessons/42746
 * H-Index(hIndex) : https://programmers.co.kr/learn/courses/30/lessons/42747
+* 조이스틱(joyStick) : https://programmers.co.kr/learn/courses/30/lessons/42860
 
 #### 알고스팟
 
