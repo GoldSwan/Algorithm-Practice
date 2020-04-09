@@ -21,12 +21,11 @@ bool solution(vector<string> phone_book) {
 		{
 			s2 = phone_book.at(i).substr(0,k+1);
 
-			//12345. 123 �� ����
 			if(s1.length()==k+1 && map_phone_book[s2]==1)
 			{
 				return answer=false;
 			}
-			//123. 12345 �� ����
+
 			else if(map_phone_book[s2]==2)
 			{
 				return answer=false;
