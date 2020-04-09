@@ -22,11 +22,11 @@
 * P0014 문자열압축(stringCompression) : https://programmers.co.kr/learn/courses/30/lessons/60057 <a href="/programers/P0014_stringCompression/goldswan/stringCompression_goldswan.java"> source</a>
 * P0015 가장 먼 노드(furthestNode) : https://programmers.co.kr/learn/courses/30/lessons/49189 <a href="/programers/P0015_furthestNode/goldswan/furthestNode_goldswan.java"> source</a>
 * P0016 완주하지 못한 선수(unfinishedPlayer) : https://programmers.co.kr/learn/courses/30/lessons/42576 <a href="/programers/P0016_unfinishedPlayer/goldswan/unfinishedPlayer_goldswan.java"> source</a>
-* P0017 전화번호 목록(listOfTelephoneNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42577 <a href="/programers/P0017_listOfTelephoneNumbers/goldswan/listOfTelephoneNumbers_goldswan.java"> source</a>
+* P0017 전화번호 목록(listOfTelephoneNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42577 <a href="/programers/P0017_listOfTelephoneNumbers/goldswan/listOfTelephoneNumbers_goldswan.cpp"> source</a>
 * P0018 K번째수(kNumber) : https://programmers.co.kr/learn/courses/30/parts/12198 <a href="/programers/P0018_kNumber/goldswan/kNumber_goldswan.java"> source</a>
-* P0019 더 맵게(spicier) : https://programmers.co.kr/learn/courses/30/parts/12117 <a href="/programers/P0019_spicier/goldswan/spicier_goldswan.java"> source</a>
-* P0020 타겟 넘버(targetNumber) : https://programmers.co.kr/learn/courses/30/lessons/43165 <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.java"> source</a>
-* P0021 네트워크(network) : https://programmers.co.kr/learn/courses/30/lessons/43162 <a href="/programers/P0021_network/goldswan/network_goldswan.java"> source</a>
+* P0019 더 맵게(spicier) : https://programmers.co.kr/learn/courses/30/parts/12117 <a href="/programers/P0019_spicier/goldswan/spicier_goldswan.cpp"> source</a>
+* P0020 타겟 넘버(targetNumber) : https://programmers.co.kr/learn/courses/30/lessons/43165 <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.cpp"> source</a>
+* P0021 네트워크(network) : https://programmers.co.kr/learn/courses/30/lessons/43162 <a href="/programers/P0021_network/goldswan/network_goldswan.cpp"> source</a>
 
 #### 알고스팟
 
