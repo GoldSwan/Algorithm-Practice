@@ -6,7 +6,7 @@
 
 #### 프로그래머스
 
-* P0001 모의고사(mockTest) : https://programmers.co.kr/learn/courses/30/lessons/42840 <a href="/GoldSwan/Algorithm/blob/master/programers/P0001_mockTest/goldswan/mockTest_goldswan.java"> source</a>
+* P0001 모의고사(mockTest) : https://programmers.co.kr/learn/courses/30/lessons/42840 <a href="/programers/P0001_mockTest/goldswan/mockTest_goldswan.java"> source</a>
 * P0002 괄호변환(bracketTransformation) : https://programmers.co.kr/learn/courses/30/lessons/60058 <a href="/GoldSwan/Algorithm/blob/master/programers/P0002_bracketTransformation/goldswan/bracketTransformation_goldswan.java"> source</a>
 * P0003 소수 찾기(findPrimeNumbers) : https://programmers.co.kr/learn/courses/30/lessons/42839 <a href="/GoldSwan/Algorithm/blob/master/programers/P0003_findPrimeNumbers/goldswan/findPrimeNumbers_goldswan.java"> source</a>
 * P0004 오픈채팅방(openChatRoom) : https://programmers.co.kr/learn/courses/30/lessons/42888 <a href="/GoldSwan/Algorithm/blob/master/programers/P0004_openChatRoom/goldswan/openChatRoom_goldswan.java"> source</a>
