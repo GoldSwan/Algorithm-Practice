@@ -1,6 +1,6 @@
-## Algorithm Practice
+## Algorithm-Practice
 
-#### 알고리즘 문제풀이 리스트 및 소스입니다.
+#### 알고리즘 연습을 위한 문제리스트 및 풀이소스입니다.
 
 ### 문제 리스트
 
