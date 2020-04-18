@@ -1,4 +1,4 @@
-## Algorithm
+## Algorithm Practice
 
 #### 알고리즘 문제풀이 리스트 및 소스입니다.
 
