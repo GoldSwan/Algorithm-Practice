@@ -10,3 +10,8 @@
 !programers/
 !algospot/
 !.gitignore
+
+programers/RemoteSystemsTempFiles
+programers/.gitignore
+algospot/RemoteSystemsTempFiles
+algospot/.gitignore
