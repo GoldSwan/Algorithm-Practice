@@ -27,7 +27,9 @@
 * P0019 더 맵게(spicier) : https://programmers.co.kr/learn/courses/30/parts/12117 <a href="/programers/P0019_spicier/goldswan/spicier_goldswan.cpp"> source</a>
 * P0020 타겟 넘버(targetNumber) : https://programmers.co.kr/learn/courses/30/lessons/43165 <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.cpp"> source</a>
 * P0021 네트워크(network) : https://programmers.co.kr/learn/courses/30/lessons/43162 <a href="/programers/P0021_network/goldswan/network_goldswan.cpp"> source</a>
-
+* P0022 탑(Tower) : https://programmers.co.kr/learn/courses/30/lessons/42588 Source : <a href="/programers/P0022_Tower/goldswan/src/algorithm/programers/Tower.java">JAVA</a>
+* P0023 숫자야구(NumberBaseball) : https://programmers.co.kr/learn/courses/30/lessons/42841 Source : <a href="/programers/P0023_NumberBaseball/goldswan/
+src/algorithm/programers/NumberBaseball.java">JAVA</a>
 #### 알고스팟
 
 * A0001 보글게임(boggle) : https://algospot.com/judge/problem/read/BOGGLE <a href="/algospot/A0001_boggle/goldswan/boggle_goldswan.java"> source</a>
