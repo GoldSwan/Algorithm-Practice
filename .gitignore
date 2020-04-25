@@ -12,9 +12,9 @@
 !.gitignore
 
 programers/RemoteSystemsTempFiles
-programers/.gitignore
+programers/.metadata
 algospot/RemoteSystemsTempFiles
-algospot/.gitignore
+algospot/.metadata
 
 ### Java ###
 # Compiled class file
