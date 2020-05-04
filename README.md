@@ -31,7 +31,7 @@
 * P0023 숫자야구(NumberBaseball) : https://programmers.co.kr/learn/courses/30/lessons/42841 Source : <a href="/programers/P0023_NumberBaseball/goldswan/
 src/algorithm/programers/NumberBaseball.java">Java</a>
 * P0024 방금그곡(SongJustNow) : https://programmers.co.kr/learn/courses/30/lessons/17683" Source : <a href="/programers/P0024_SongJustNow/goldswan/src/algorithm/programers/SongJustNow.java">Java</a>
-* P0025 캐시(Cashe) : https://programmers.co.kr/learn/courses/30/lessons/17680 Source : <a href="/programers/P0025_Cashe/goldswan/src/algorithm/programers/Cashe.java">Java</a>
+* P0025 캐시(Cache) : https://programmers.co.kr/learn/courses/30/lessons/17680 Source : <a href="/programers/P0025_Cache/goldswan/src/algorithm/programers/Cache.java">Java</a>
 #### 알고스팟
 
 * A0001 보글게임(boggle) : https://algospot.com/judge/problem/read/BOGGLE <a href="/algospot/A0001_boggle/goldswan/boggle_goldswan.java"> source</a>
