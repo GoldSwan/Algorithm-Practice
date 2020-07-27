@@ -58,7 +58,9 @@
     - Source : <a href="/programers/P0025_Cache/goldswan/src/algorithm/programers/Cache.java">Java</a>
 * P0026 단어 변환(WordChange) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43163" target="_blank">Link</a> 
     - Source : <a href="/programers/P0026_WordChange/goldswan/src/algorithm/programers/WordChange.java">Java</a>
-
+* P0027 프린터(Printer) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42587" target="_blank">Link</a> 
+    - Source : <a href="/programers/P0027_Printer/goldswan/src/algorithm/programers/Printer.java">Java</a>
+    
 #### 알고스팟
 
 * A0001 보글게임(boggle) : <a href="https://algospot.com/judge/problem/read/BOGGLE" target="_blank">Link</a> 
