@@ -56,6 +56,8 @@
     - Source : <a href="/programers/P0024_SongJustNow/goldswan/src/algorithm/programers/SongJustNow.java">Java</a>
 * P0025 캐시(Cache) : <a href="https://programmers.co.kr/learn/courses/30/lessons/17680" target="_blank">Link</a> 
     - Source : <a href="/programers/P0025_Cache/goldswan/src/algorithm/programers/Cache.java">Java</a>
+* P0026 단어 변환(WordChange) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43163" target="_blank">Link</a> 
+    - Source : <a href="/programers/P0025_Cache/goldswan/src/algorithm/programers/WordChange.java">Java</a>
 #### 알고스팟
 
 * A0001 보글게임(boggle) : <a href="https://algospot.com/judge/problem/read/BOGGLE" target="_blank">Link</a> 
