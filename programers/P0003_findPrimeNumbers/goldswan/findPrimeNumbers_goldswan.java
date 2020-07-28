@@ -1,13 +1,105 @@
 /********************************************************************
 작성일 : 2020-01-04
+수정일 : 2020-07-28
+수정내용 : 알고리즘 속도 개선 및 코드 개선
 작성자 : GoldSwan
 문제 : 프로그래머스 - 소수 찾기(3_findPrimeNumbers)
 출저 : programers
 풀이 : 완전탐색, 해시이용
-예상 시간복잡도 : N^2
 TEST 결과 :  모두통과
 *********************************************************************/
 
+import java.util.ArrayList;
+
+class Solution {
+
+		int count=0;
+		ArrayList<Integer> PrimeNumbersArray = new ArrayList<Integer>();
+
+	public int solution(String numbers) {
+        int answer = 0;
+        String[] numbersSplitArray = numbers.split("");
+        int maxNumber = makeMaxNumber(numbersSplitArray);
+
+        for(int i=2;i<=maxNumber;i++) {
+        	if(isPrimeNumbers(i))
+        		PrimeNumbersArray.add(i);
+        }
+
+        for(int i=0;i<PrimeNumbersArray.size();i++) {
+        	if(isCanMakeNumbers(Integer.toString(PrimeNumbersArray.get(i)).split(""),numbersSplitArray))
+        		count++;
+
+        }
+        answer = count;
+
+        return answer;
+    }
+
+	public int makeMaxNumber(String[] numbersSplitArray) {
+
+		int[] visit = new int[10];
+		int index = 9;
+		StringBuffer sb = new StringBuffer();
+
+		for(int i=0;i<numbersSplitArray.length;i++) {
+			visit[Integer.parseInt(numbersSplitArray[i])]++;
+		}
+
+		while(index>=0) {
+
+			if(visit[index]>0) {
+				sb.append(Integer.toString(index));
+				visit[index]--;
+				continue;
+			}
+
+			index--;
+		}
+
+		return Integer.parseInt(sb.toString());
+	}
+
+	public boolean isPrimeNumbers(int number) {
+
+		if(number==2)
+			return true;
+
+		int sqrtValue = (int) Math.sqrt(number);
+
+		for(int i=2;i<=sqrtValue;i++) {
+			if(number%i==0)
+				return false;
+		}
+
+		return true;
+	}
+
+	public boolean isCanMakeNumbers(String[] primeNumberSplitArray, String[] numbersSplitArray) {
+
+		int[] visit = new int[10];
+		int count = 0;
+
+		for(int i=0;i<numbersSplitArray.length;i++) {
+			visit[Integer.parseInt(numbersSplitArray[i])]++;
+		}
+
+		for(int i=0;i<primeNumberSplitArray.length;i++) {
+			if(visit[Integer.parseInt(primeNumberSplitArray[i])]>0) {
+				count++;
+				visit[Integer.parseInt(primeNumberSplitArray[i])]--;
+			}
+		}
+
+		if(count==primeNumberSplitArray.length) {
+			return true;
+		}
+
+		return false;
+	}
+}
+//리팩터링 이전 코드
+/*
 import java.util.HashMap;
 import java.util.Vector;
 
@@ -123,14 +215,12 @@ class Solution {
     }
 
 }
-
-public class findPrimeNumbers_goldswan {
-
+*/
+public class FindPrimeNumbers {
 	public static void main(String[] args) {
-		String numbers = "17";//7,17,71
+		String numbers = "011";//7,17,71
 		Solution sol = new Solution();
 		int answer = sol.solution(numbers);
-		System.out.println(answer);
+		System.out.println("answer:"+answer);
 	}
-
 }
