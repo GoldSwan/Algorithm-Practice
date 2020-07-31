@@ -38,19 +38,19 @@ class Solution {
 
 	public int makeMaxNumber(String[] numbersSplitArray) {
 
-		int[] visit = new int[10];
+		int[] cards = new int[10];
 		int index = 9;
 		StringBuffer sb = new StringBuffer();
 
 		for(int i=0;i<numbersSplitArray.length;i++) {
-			visit[Integer.parseInt(numbersSplitArray[i])]++;
+			cards[Integer.parseInt(numbersSplitArray[i])]++;
 		}
 
 		while(index>=0) {
 
-			if(visit[index]>0) {
+			if(cards[index]>0) {
 				sb.append(Integer.toString(index));
-				visit[index]--;
+				cards[index]--;
 				continue;
 			}
 
@@ -77,17 +77,17 @@ class Solution {
 
 	public boolean isCanMakeNumbers(String[] primeNumberSplitArray, String[] numbersSplitArray) {
 
-		int[] visit = new int[10];
+		int[] cards = new int[10];
 		int count = 0;
 
 		for(int i=0;i<numbersSplitArray.length;i++) {
-			visit[Integer.parseInt(numbersSplitArray[i])]++;
+			cards[Integer.parseInt(numbersSplitArray[i])]++;
 		}
 
 		for(int i=0;i<primeNumberSplitArray.length;i++) {
-			if(visit[Integer.parseInt(primeNumberSplitArray[i])]>0) {
+			if(cards[Integer.parseInt(primeNumberSplitArray[i])]>0) {
 				count++;
-				visit[Integer.parseInt(primeNumberSplitArray[i])]--;
+				cards[Integer.parseInt(primeNumberSplitArray[i])]--;
 			}
 		}
 
