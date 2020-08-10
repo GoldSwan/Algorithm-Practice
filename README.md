@@ -65,7 +65,9 @@
 * P0029 디스크 컨트롤러(DiskController) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42627">Link</a>
     - Source : <a href="/programers/P0029_DiskController/goldswan/src/algorithm/programers/DiskController.java">Java</a>  
 * P0030 섬 연결하기(ConnectingIsles) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42861">Link</a>
-    - Source : <a href="/programers/P0030_ConnectingIsles/goldswan/src/algorithm/programers/ConnectingIsles.java">Java</a>          
+    - Source : <a href="/programers/P0030_ConnectingIsles/goldswan/src/algorithm/programers/ConnectingIsles.java">Java</a>
+* P0031 주식가격(StockPrice) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42584/">Link</a>
+    - Source : <a href="/programers/P0031_StockPrice/src/algorithm/programers/StockPrice.java">Java</a>              
 #### 알고스팟
 
 * A0001 보글게임(boggle) : <a href="https://algospot.com/judge/problem/read/BOGGLE">Link</a>
