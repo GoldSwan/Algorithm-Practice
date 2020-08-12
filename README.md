@@ -69,7 +69,11 @@
 * P0031 주식가격(StockPrice) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42584/">Link</a>
     - Source : <a href="/programers/P0031_StockPrice/src/algorithm/programers/StockPrice.java">Java</a>     
 * P0032 기능개발(FunctionalDevelopment) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42586">Link</a>
-    - Source : <a href="/programers/P0032_FunctionalDevelopment/src/algorithm/programers/FunctionalDevelopment.java">Java</a>                
+    - Source : <a href="/programers/P0032_FunctionalDevelopment/src/algorithm/programers/FunctionalDevelopment.java">Java</a>   
+* P0033 카펫(Carpet) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42842">Link</a>
+    - Source : <a href="/programers/P0033_Carpet/src/algorithm/programers/Carpet.java">Java</a>    
+
+
 #### 알고스팟
 
 * A0001 보글게임(boggle) : <a href="https://algospot.com/judge/problem/read/BOGGLE">Link</a>
