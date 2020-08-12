@@ -29,7 +29,7 @@
 * P0011 위장(camouflage) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42578">Link</a>
     - Source : <a href="/programers/P0011_camouflage/goldswan/camouflage_goldswan.java">Java</a>
 * P0012 다리를 지나는 트럭(bridgeCrossedTruck) : <a href="https://programmers.co.kr/learn/courses/30/parts/12081">Link</a>
-    - Source : <a href="/programers/P0012_bridgeCrossedTruck/goldswan/bridgeCrossedTruck_goldswan.java">Java</a>
+    - Source : <a href="programers/P0012_BridgeCrossedTruck/goldswan/src/algorithm/programers/BridgeCrossedTruck.java">Java</a>
 * P0013 종이접기(origami) : <a href="https://programmers.co.kr/learn/courses/30/lessons/62049">Link</a>
     - Source : <a href="/programers/P0013_origami/goldswan/origami_goldswan.java">Java</a>
 * P0014 문자열압축(stringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
