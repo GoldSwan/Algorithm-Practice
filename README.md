@@ -72,6 +72,8 @@
     - Source : <a href="/programers/P0032_FunctionalDevelopment/src/algorithm/programers/FunctionalDevelopment.java">Java</a>   
 * P0033 카펫(Carpet) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42842">Link</a>
     - Source : <a href="/programers/P0033_Carpet/src/algorithm/programers/Carpet.java">Java</a>    
+* P0034 이중우선순위큐(DoublePriorityQueue) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42628">Link</a>
+    - Source : <a href="/programers/P0034_DoublePriorityQueue/src/algorithm/programers/DoublePriorityQueue.java">Java</a>    
 
 
 #### 알고스팟
