@@ -74,7 +74,8 @@
     - Source : <a href="/programers/P0033_Carpet/src/algorithm/programers/Carpet.java">Java</a>    
 * P0034 이중우선순위큐(DoublePriorityQueue) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42628">Link</a>
     - Source : <a href="/programers/P0034_DoublePriorityQueue/src/algorithm/programers/DoublePriorityQueue.java">Java</a>    
-
+* P0035 체육복(WorkoutClothes) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42862">Link</a>
+    - Source : <a href="/programers/P0035_WorkoutClothes/src/algorithm/programers/WorkoutClothes.java">Java</a>    
 
 #### 알고스팟
 
