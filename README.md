@@ -6,7 +6,7 @@
 
 #### 프로그래머스
 
-####해시
+#### 해시
 
 * P0016 완주하지 못한 선수(unfinishedPlayer) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42576">Link</a>
     - Source : <a href="/programers/P0016_unfinishedPlayer/goldswan/unfinishedPlayer_goldswan.java">Java</a>
@@ -17,7 +17,7 @@
 * P0037 베스트앨범(BestAlbum) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42579">Link</a>
     - Source : <a href="/programers/P0037_BestAlbum/goldswan/BestAlbum.java">Java</a>
 
-####스택/큐
+#### 스택/큐
 
 * P0031 주식가격(StockPrice) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42584/">Link</a>
     - Source : <a href="/programers/P0031_StockPrice/src/algorithm/programers/StockPrice.java">Java</a>     
@@ -28,7 +28,7 @@
 * P0027 프린터(Printer) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42587">Link</a>
     - Source : <a href="/programers/P0027_Printer/goldswan/src/algorithm/programers/Printer.java">Java</a>
 
-####힙(Heap)
+#### 힙(Heap)
 
 * P0019 더 맵게(spicier) : <a href="https://programmers.co.kr/learn/courses/30/parts/12117">Link</a>
     - Source : <a href="/programers/P0019_spicier/goldswan/spicier_goldswan.cpp">C++</a>
@@ -37,7 +37,7 @@
 * P0034 이중우선순위큐(DoublePriorityQueue) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42628">Link</a>
     - Source : <a href="/programers/P0034_DoublePriorityQueue/src/algorithm/programers/DoublePriorityQueue.java">Java</a>   
 
-####정렬
+#### 정렬
 
 * P0018 K번째수(kNumber) : <a href="https://programmers.co.kr/learn/courses/30/parts/12198">Link</a>
     - Source : <a href="/programers/P0018_kNumber/goldswan/kNumber_goldswan.java">Java</a>
@@ -46,7 +46,7 @@
 * P0009 H-Index(hIndex) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42747">Link</a>
     - Source : <a href="/programers/P0009_hIndex/goldswan/hIndex_goldswan.java">Java</a>
 
-####완전탐색
+#### 완전탐색
 
 * P0001 모의고사(mockTest) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42840">Link</a>
     - Source : <a href="/programers/P0001_mockTest/goldswan/mockTest_goldswan.java">Java</a>
@@ -55,7 +55,7 @@
 * P0033 카펫(Carpet) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42842">Link</a>
     - Source : <a href="/programers/P0033_Carpet/src/algorithm/programers/Carpet.java">Java</a>   
 
-####탐욕법(Greedy)
+#### 탐욕법(Greedy)
 
 * P0035 체육복(WorkoutClothes) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42862">Link</a>
     - Source : <a href="/programers/P0035_WorkoutClothes/src/algorithm/programers/WorkoutClothes.java">Java</a>  
@@ -66,7 +66,7 @@
 * P0030 섬 연결하기(ConnectingIsles) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42861">Link</a>
     - Source : <a href="/programers/P0030_ConnectingIsles/goldswan/src/algorithm/programers/ConnectingIsles.java">Java</a>  
 
-####깊이/너비 우선 탐색(DFS/BFS)
+#### 깊이/너비 우선 탐색(DFS/BFS)
 
 * P0020 타겟 넘버(targetNumber) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43165">Link</a>
     - Source : <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.cpp">C++</a>
@@ -75,14 +75,14 @@
 * P0026 단어 변환(WordChange) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43163">Link</a>
     - Source : <a href="/programers/P0026_WordChange/goldswan/src/algorithm/programers/WordChange.java">Java</a>    
 
-####그래프
+#### 그래프
 
 * P0015 가장 먼 노드(furthestNode) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49189">Link</a>
     - Source : <a href="/programers/P0015_furthestNode/goldswan/furthestNode_goldswan.java">Java</a>
 * P0007 순위 (ranking) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49191">Link</a>
     - Source : <a href="/programers/P0007_ranking/goldswan/ranking_goldswan.java">Java</a>    
 
-####2020 KAKAO BLIND RECRUITMENT
+#### 2020 KAKAO BLIND RECRUITMENT
 
 * P0014 문자열압축(stringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
     - Source : <a href="/programers/P0014_stringCompression/goldswan/stringCompression_goldswan.java">Java</a>
@@ -93,19 +93,19 @@
 * P0005 가사검색(lyricsSearch) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60060">Link</a>
     - Source : <a href="/programers/P0005_lyricsSearch/goldswan/lyricsSearch_goldswan.java">Java</a>
 
-####2019 KAKAO BLIND RECRUITMENT
+#### 2019 KAKAO BLIND RECRUITMENT
 
 * P0004 오픈채팅방(openChatRoom) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42888">Link</a>
     - Source : <a href="/programers/P0004_openChatRoom/goldswan/openChatRoom_goldswan.java">Java</a>
 
-####2018 KAKAO BLIND RECRUITMENT
+#### 2018 KAKAO BLIND RECRUITMENT
 
 * P0025 캐시(Cache) : <a href="https://programmers.co.kr/learn/courses/30/lessons/17680">Link</a>
     - Source : <a href="/programers/P0025_Cache/goldswan/src/algorithm/programers/Cache.java">Java</a>  
 * P0024 방금그곡(SongJustNow) : <a href="https://programmers.co.kr/learn/courses/30/lessons/17683">Link</a>
     - Source : <a href="/programers/P0024_SongJustNow/goldswan/src/algorithm/programers/SongJustNow.java">Java</a>    
 
-####ETC
+#### ETC
 
 * P0013 종이접기(origami) : <a href="https://programmers.co.kr/learn/courses/30/lessons/62049">Link</a>
     - Source : <a href="/programers/P0013_origami/goldswan/origami_goldswan.java">Java</a>
