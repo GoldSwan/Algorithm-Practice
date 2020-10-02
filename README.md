@@ -82,6 +82,11 @@
 * P0007 순위 (ranking) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49191">Link</a>
     - Source : <a href="/programers/P0007_ranking/goldswan/ranking_goldswan.java">Java</a>    
 
+#### 이분탐색
+
+* P0038 입국심사(Immigration) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43238">Link</a>
+    - Source : <a href="/programers/P0038_Immigration/goldswan/Immigration.java">Java</a>
+
 #### 2020 KAKAO BLIND RECRUITMENT
 
 * P0014 문자열압축(stringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
