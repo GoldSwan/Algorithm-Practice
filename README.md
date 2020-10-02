@@ -85,7 +85,7 @@
 #### 이분탐색
 
 * P0038 입국심사(Immigration) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43238">Link</a>
-    - Source : <a href="/programers/P0038_Immigration/goldswan/Immigration.java">Java</a>
+    - Source : <a href="/programers/P0038_Immigration/src/algorithm/programers/Immigration.java">Java</a>
 
 #### 2020 KAKAO BLIND RECRUITMENT
 
