@@ -7,7 +7,7 @@ class Solution {
     public int solution(int[] people, int limit) {  
         return findLifeboatMinCnt(people, limit);
     }
-    //HashMap 과 Greedy Algorithm을 활용한 효율적 탐색
+    //HashMap 과 Greedy Algorithm을 활용한 최적해 구하기
     public int findLifeboatMinCnt(int[] people, int limit) {
     	int cnt = 0;
     	Map<Integer,Integer> map = new HashMap<Integer,Integer>();
@@ -53,7 +53,7 @@ class Solution {
     	return false;
     }
     
-    //완전 탐색
+    //완전 탐색을 이용한 최적해 구하기
     /*
     public int findLifeboatMinCnt(int[] people, int limit) {
     	//기저사실 : 무인도에 갇힌 사람이 1명일 경우 구명보트도 1개만 필요하므로 1 리턴
