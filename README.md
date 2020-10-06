@@ -65,6 +65,8 @@
     - Source : <a href="/programers/P0010_joyStick/goldswan/joyStick_goldswan.java">Java</a>
 * P0030 섬 연결하기(ConnectingIsles) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42861">Link</a>
     - Source : <a href="/programers/P0030_ConnectingIsles/goldswan/src/algorithm/programers/ConnectingIsles.java">Java</a>  
+* P0039 구명보트(Lifeboat) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42885">Link</a>
+    - Source : <a href="/programers/P0039_Lifeboat/src/algorithm/programers/Lifeboat.java">Java</a>  
 
 #### 깊이/너비 우선 탐색(DFS/BFS)
 
