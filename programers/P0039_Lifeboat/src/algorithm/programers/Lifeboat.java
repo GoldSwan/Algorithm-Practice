@@ -7,7 +7,7 @@ class Solution {
     public int solution(int[] people, int limit) {  
         return findLifeboatMinCnt(people, limit);
     }
-    //HashMap 과 Greedy Algorithm을 활용한 효울적 탐색
+    //HashMap 과 Greedy Algorithm을 활용한 효율적 탐색
     public int findLifeboatMinCnt(int[] people, int limit) {
     	int cnt = 0;
     	Map<Integer,Integer> map = new HashMap<Integer,Integer>();
