@@ -15,7 +15,7 @@
 * P0011 위장(camouflage) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42578">Link</a>
     - Source : <a href="/programers/P0011_camouflage/goldswan/camouflage_goldswan.java">Java</a>
 * P0037 베스트앨범(BestAlbum) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42579">Link</a>
-    - Source : <a href="/programers/P0037_BestAlbum/goldswan/BestAlbum.java">Java</a>
+    - Source : <a href="/programers/P0037_BestAlbum/src/algorithm/programers/BestAlbum.java">Java</a>
 
 #### 스택/큐
 
