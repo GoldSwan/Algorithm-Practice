@@ -91,6 +91,11 @@
 * P0038 입국심사(Immigration) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43238">Link</a>
     - Source : <a href="/programers/P0038_Immigration/src/algorithm/programers/Immigration.java">Java</a>
 
+#### 동적계획법(Dynamic Programming)
+
+* P0041 정수 삼각형(P0041_IntegerTriangle) : <a https://programmers.co.kr/learn/courses/30/lessons/43105">Link</a>
+    - Source : <a href="/programers/P0041_IntegerTriangle/src/algorithm/programers/IntegerTriangle.java">Java</a>  
+
 #### 2020 KAKAO BLIND RECRUITMENT
 
 * P0014 문자열압축(stringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
