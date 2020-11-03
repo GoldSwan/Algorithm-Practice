@@ -1,7 +1,7 @@
 package algorithm.programers;
 
 class Solution {
-    private class PatternNumber{
+    private static class PatternNumber{
         //PatternNumber : 최소로 패턴을 분할한 클래스
         long pw;//패턴에서 넓이 w
         long ph;//패턴에서 높이 h
