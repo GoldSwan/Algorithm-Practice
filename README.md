@@ -110,8 +110,8 @@
 
 #### 2020 KAKAO BLIND RECRUITMENT
 
-* P0014 문자열압축(stringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
-    - Source : <a href="/programers/P0014_stringCompression/goldswan/stringCompression_goldswan.java">Java</a>
+* P0014 문자열압축(StringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
+    - Source : <a href="/programers/P0014_StringCompression/src/algorithm/programers/StringCompression.java">Java</a>    
 * P0002 괄호변환(bracketTransformation) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60058">Link</a>
     - Source : <a href="/programers/P0002_bracketTransformation/goldswan/bracketTransformation_goldswan.java">Java</a>
 * P0006 자물쇠와 열쇠 (lockAndKey) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60059">Link</a>
