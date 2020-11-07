@@ -83,8 +83,8 @@
 
 #### 그래프
 
-* P0015 가장 먼 노드(furthestNode) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49189">Link</a>
-    - Source : <a href="/programers/P0015_furthestNode/goldswan/furthestNode_goldswan.java">Java</a>
+* P0015 가장 먼 노드(FurthestNode) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49189">Link</a>
+    - Source : <a href="/programers/P0015_FurthestNode/src/algorithm/programers/FurthestNode.java">Java</a>  
 * P0007 순위 (ranking) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49191">Link</a>
     - Source : <a href="/programers/P0007_ranking/goldswan/ranking_goldswan.java">Java</a>    
 
