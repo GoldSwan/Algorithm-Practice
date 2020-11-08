@@ -159,3 +159,10 @@
     - Source : <a href="/algospot/A0006_clockSync/goldswan/clockSync_goldswan.java">Java</a>
 * A0007 쿼드 트리 뒤집기 (quadTree) : <a href="https://algospot.com/judge/problem/read/QUADTREE">Link</a>
     - Source : <a href="/algospot/A0007_quadTree/goldswan/quadTree_goldswan.java">Java</a>
+
+### 개념정리
+
+* 순열 (Permutation)
+    - Source : <a href="/concept/Permutation/src/algorithm/concept/Permutation.java">Java</a>
+* 조합 (Combination)
+    - Source : <a href="/concept/Combination/src/algorithm/concept/Combination.java">Java</a>
