@@ -5,10 +5,11 @@
 # 모든 파일 제외
 /*
 
-# algospot, programers 디렉터리들만 추가 가능하도록
+# algospot, programers, concept 디렉터리들만 추가 가능하도록
 
 !programers/
 !algospot/
+!concept/
 !.gitignore
 
 programers/RemoteSystemsTempFiles
