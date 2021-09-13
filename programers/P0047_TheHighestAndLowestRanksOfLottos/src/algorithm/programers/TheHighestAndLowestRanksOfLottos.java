@@ -18,7 +18,7 @@ class Solution {
     private int getMaxRank(int[] lottos, HashMap<Integer, Integer> mapWinNums){
         int cnt = 0;
         for(int num : lottos){
-			if(mapWinNums.get(num)!=null || num==0)
+			if(mapWinNums.containsKey(num) || num==0)
                 cnt++;
         }
         return (cnt == 6) ? 1 : (cnt == 5) ? 2 : (cnt == 4) ? 3 : (cnt == 3) ? 4 : (cnt == 2) ? 5 : 6;
@@ -27,7 +27,7 @@ class Solution {
     private int getMinRank(int[] lottos, HashMap<Integer, Integer> mapWinNums){
          int cnt = 0;
          for(int num : lottos){
-			if(mapWinNums.get(num)!=null)
+			if(mapWinNums.containsKey(num))
                 cnt++;
          }
         return (cnt == 6) ? 1 : (cnt == 5) ? 2 : (cnt == 4) ? 3 : (cnt == 3) ? 4 : (cnt == 2) ? 5 : 6;
