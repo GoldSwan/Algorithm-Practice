@@ -69,7 +69,7 @@
     - Source : <a href="/programers/P0039_Lifeboat/src/algorithm/programers/Lifeboat.java">Java</a>  
 * P0042 단속카메라(ControlCamera) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42884">Link</a>
     - Source : <a href="/programers/P0042_ControlCamera/src/algorithm/programers/ControlCamera.java">Java</a>
-    
+
 #### 깊이/너비 우선 탐색(DFS/BFS)
 
 * P0020 타겟 넘버(targetNumber) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43165">Link</a>
@@ -98,12 +98,17 @@
 * P0041 정수 삼각형(P0041_IntegerTriangle) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43105">Link</a>
     - Source : <a href="/programers/P0041_IntegerTriangle/src/algorithm/programers/IntegerTriangle.java">Java</a>  
 
+#### LEVEL 1
+
+* P0047 로또의 최고 순위와 최저 순위(P0047_TheHighestAndLowestRanksOfLottos) : <a href="https://programmers.co.kr/learn/courses/30/lessons/77484">Link</a>
+    - Source : <a href="/programers/P0047_TheHighestAndLowestRanksOfLottos/src/algorithm/programers/TheHighestAndLowestRanksOfLottos.java">Java</a>
+
 #### LEVEL 2
 
 * P0043 멀쩡한 사각형(P0043_IntactSquare) : <a href="https://programmers.co.kr/learn/courses/30/lessons/62048">Link</a>
-    - Source : <a href="/programers/P0043_IntactSquare/src/algorithm/programers/IntactSquare.java">Java</a> 
+    - Source : <a href="/programers/P0043_IntactSquare/src/algorithm/programers/IntactSquare.java">Java</a>
 * P0044 124 나라의 숫자(P0044_Number124OfNation) : <a href="https://programmers.co.kr/learn/courses/30/lessons/12899">Link</a>
-    - Source : <a href="/programers/P0044_Number124OfNation/src/algorithm/programers/Number124OfNation.java">Java</a> 
+    - Source : <a href="/programers/P0044_Number124OfNation/src/algorithm/programers/Number124OfNation.java">Java</a>
 * P0045 스킬트리(P0045_SkillTree) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49993">Link</a>
     - Source : <a href="/programers/P0045_SkillTree/src/algorithm/programers/SkillTree.java">Java</a>
 * P0046 카카오 프렌즈 컬러링북(P0046_ColoringBook) : <a href="https://programmers.co.kr/learn/courses/30/lessons/1829">Link</a>
