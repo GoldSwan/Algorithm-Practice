@@ -73,7 +73,7 @@
 #### 깊이/너비 우선 탐색(DFS/BFS)
 
 * P0020 타겟 넘버(targetNumber) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43165">Link</a>
-    - Source : <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.cpp">C++</a>
+    - Source : <a href="/programers/P0020_targetNumber/goldswan/targetNumber_goldswan.cpp">C++</a> <a href="/programers/P0020_targetNumber/src/algorithm/programers/ColoringBook.java">Java</a>
 * P0021 네트워크(network) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43162">Link</a>
     - Source : <a href="/programers/P0021_network/goldswan/network_goldswan.cpp">C++</a>
 * P0026 단어 변환(WordChange) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43163">Link</a>
