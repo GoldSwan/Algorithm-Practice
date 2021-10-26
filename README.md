@@ -11,7 +11,7 @@
 * P0016 완주하지 못한 선수(unfinishedPlayer) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42576">Link</a>
     - Source : <a href="/programers/P0016_unfinishedPlayer/goldswan/unfinishedPlayer_goldswan.java">Java</a>
 * P0017 전화번호 목록(listOfTelephoneNumbers) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42577">Link</a>
-    - Source : <a href="/programers/P0017_listOfTelephoneNumbers/goldswan/listOfTelephoneNumbers_goldswan.cpp">C++</a>
+    - Source : <a href="/programers/P0017_listOfTelephoneNumbers/goldswan/listOfTelephoneNumbers_goldswan.cpp">C++</a> <a href="/programers/P0017_listOfTelephoneNumbers/src/algorithm/programers/ListOfTelephoneNumbers.java">Java</a>
 * P0011 위장(camouflage) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42578">Link</a>
     - Source : <a href="/programers/P0011_camouflage/goldswan/camouflage_goldswan.java">Java</a>
 * P0037 베스트앨범(BestAlbum) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42579">Link</a>
