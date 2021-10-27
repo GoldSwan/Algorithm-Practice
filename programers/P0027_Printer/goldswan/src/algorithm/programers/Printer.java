@@ -48,7 +48,36 @@ class Solution {
     	
     	return false;
     }
-    
+
+    public int solution2(int[] priorities, int location) {
+        int answer = 0;
+        
+        Queue<Integer> workQueue = new LinkedList<Integer>();
+        int maxPriority = 0;//최대 우선순위
+        //작업큐 생성
+        for(int i=0;i<priorities.length;i++) {
+        	if(maxPriority<priorities[i]) {
+        		maxPriority = priorities[i];
+        	}
+        	workQueue.offer(i);
+        }
+        System.out.println(maxPriority);
+        while(!workQueue.isEmpty()) {
+        	int work = workQueue.peek();
+        	if(priorities[work]<maxPriority) {
+        		workQueue.poll();
+        		workQueue.offer(work);
+        		continue;
+        	}
+        	maxPriority = priorities[work];  
+        	workQueue.poll();
+        	answer++;     
+        	if(work==location)
+        		break;
+        }
+        
+        return answer;
+    }
 }
 
 public class Printer {
@@ -61,7 +90,7 @@ public class Printer {
 		//int[] priorities = {2,1,3,2};
 		//int location = 2;
 		
-		int answer = sol.solution(priorities, location);
+		int answer = sol.solution2(priorities, location);
 		
 		System.out.println("answer:"+answer);
 	}
