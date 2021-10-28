@@ -1,83 +1,43 @@
 package algorithm.programers;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 class Solution {
     public int solution(int[] priorities, int location) {
-        int answer = 0;
-        
-        Queue<Integer> prioritiyQueue = new LinkedList<Integer>();
-        Queue<Integer> prioritiySortQueue = new LinkedList<Integer>();
-       
+        int answer = 0;      
+        Queue<Integer> workQueue = new LinkedList<Integer>();
+  
         for(int i=0;i<priorities.length;i++)
-        	prioritiyQueue.offer(i);
+        	workQueue.offer(i);
         
-        int[] prioritiesSort = priorities.clone();
+        Integer[] arr = Arrays.stream(priorities).boxed().toArray(Integer[]::new);
+        Arrays.sort(arr, Collections.reverseOrder());
+        int[] sortPriorities = Arrays.stream(arr).mapToInt(Integer::intValue).toArray();
+        int priority_index = 0;
         
-        Arrays.sort(prioritiesSort);
-        
-        for(int i = prioritiesSort.length-1;i>=0;i--) 
-        	prioritiySortQueue.offer(prioritiesSort[i]);      
-
-        while(!prioritiyQueue.isEmpty()) {
-        	if(checkPriority(prioritiyQueue, prioritiySortQueue, priorities)) {
+        while(!workQueue.isEmpty()) {
+        	if(checkPriority(workQueue, priority_index, priorities, sortPriorities)) {
         		answer++;
         		
-            	if(prioritiyQueue.peek() == location)
+            	if(workQueue.peek() == location)
             		break;
             	
-        		prioritiyQueue.poll();
-        		prioritiySortQueue.poll();
+            	workQueue.poll();
+            	priority_index++;
         		continue;
         	}
         	
-        	int peekValue = prioritiyQueue.peek();
-        	prioritiyQueue.poll();
-        	prioritiyQueue.offer(peekValue);
+        	int peekValue = workQueue.peek();
+        	workQueue.poll();
+        	workQueue.offer(peekValue);
         }
         
         return answer;
     }
     
-    public boolean checkPriority(Queue<Integer> prioritiyQueue, Queue<Integer> prioritiySortQueue, int[] priorities) {
-    	
-    	if(prioritiySortQueue.peek()==priorities[prioritiyQueue.peek()])    		
-    		return true;   	
-    	
-    	return false;
-    }
-
-    public int solution2(int[] priorities, int location) {
-        int answer = 0;
-        
-        Queue<Integer> workQueue = new LinkedList<Integer>();
-        int maxPriority = 0;//최대 우선순위
-        //작업큐 생성
-        for(int i=0;i<priorities.length;i++) {
-        	if(maxPriority<priorities[i]) {
-        		maxPriority = priorities[i];
-        	}
-        	workQueue.offer(i);
-        }
-        System.out.println(maxPriority);
-        while(!workQueue.isEmpty()) {
-        	int work = workQueue.peek();
-        	if(priorities[work]<maxPriority) {
-        		workQueue.poll();
-        		workQueue.offer(work);
-        		continue;
-        	}
-        	maxPriority = priorities[work];  
-        	workQueue.poll();
-        	answer++;     
-        	if(work==location)
-        		break;
-        }
-        
-        return answer;
-    }
+    public boolean checkPriority(Queue<Integer> workQueue, int priority_index, int[] priorities, int[] sortPriorities) {  	
+    	return (priorities[workQueue.peek()]==sortPriorities[priority_index]) ? true : false;	
+    }   
 }
 
 public class Printer {
@@ -90,7 +50,7 @@ public class Printer {
 		//int[] priorities = {2,1,3,2};
 		//int location = 2;
 		
-		int answer = sol.solution2(priorities, location);
+		int answer = sol.solution(priorities, location);
 		
 		System.out.println("answer:"+answer);
 	}
