@@ -14,7 +14,7 @@ class Solution {
         Arrays.sort(strNumbers, new Comparator<String>() {
             @Override
             public int compare(String s1, String s2) {
-                return (s2+s1).compareTo(s1+s2);
+                return -(s1+s2).compareTo(s1+s2);//큰 숫자문자가 앞으로 정렬되야 하므로 compareTo에 -를 붙여 내림차순 정렬
             }
         });
         
@@ -29,6 +29,7 @@ class Solution {
         return answer;
     }
 }
+
 public class biggestNumber_goldswan {
     public static void main(final String[] args) {
         Solution sol = new Solution();
