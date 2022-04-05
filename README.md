@@ -114,6 +114,11 @@
 * P0046 카카오 프렌즈 컬러링북(P0046_ColoringBook) : <a href="https://programmers.co.kr/learn/courses/30/lessons/1829">Link</a>
     - Source : <a href="/programers/P0046_ColoringBook/src/algorithm/programers/ColoringBook.java">Java</a>
 
+#### 2021 KAKAO BLIND RECRUITMENT
+
+* P0048 순위 검색(RankingSearch) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72412">Link</a>
+    - Source : <a href="/programers/P0048_RankingSearch/src/algorithm/programers/RankingSearch.java">Java</a>
+
 #### 2020 KAKAO BLIND RECRUITMENT
 
 * P0014 문자열압축(StringCompression) : <a href="https://programmers.co.kr/learn/courses/30/lessons/60057">Link</a>
