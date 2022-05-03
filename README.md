@@ -118,7 +118,7 @@
 
 * P0048 순위 검색(RankingSearch) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72412">Link</a>
     - Source : <a href="/programers/P0048_RankingSearch/src/algorithm/programers/RankingSearch.java">Java</a>
-* P0048 합승 택시 요금(SharedTaxiFare) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72413">Link</a>
+* P0049 합승 택시 요금(SharedTaxiFare) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72413">Link</a>
     - Source : <a href="/programers/P0049_SharedTaxiFare/src/algorithm/programers/SharedTaxiFare.java">Java</a>
 * P0050 광고 삽입(AdInsertion) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72414">Link</a>
     - Source : <a href="/programers/P0050_AdInsertion/src/algorithm/programers/AdInsertion.java">Java</a>
