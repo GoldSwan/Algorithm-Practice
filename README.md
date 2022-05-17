@@ -124,6 +124,8 @@
     - Source : <a href="/programers/P0050_AdInsertion/src/algorithm/programers/AdInsertion.java">Java</a>
 * P0051 카드 짝 맞추기(CardMatching) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72415">Link</a>
     - Source : <a href="/programers/P0051_CardMatching/src/algorithm/programers/CardMatching.java">Java</a>
+* P0052 매출 하락 최소화(P0052_MinimizeTheDeclineInSales) : <a href="https://programmers.co.kr/learn/courses/30/lessons/72416">Link</a>
+    - Source : <a href="/programers/P0052_MinimizeTheDeclineInSales/src/algorithm/programers/MinimizeTheDeclineInSales.java">Java</a>
 
 #### 2020 KAKAO BLIND RECRUITMENT
 
