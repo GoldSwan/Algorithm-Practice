@@ -192,6 +192,8 @@
 * 조합(비트 연산 사용) (CombinationByBit)
     - Source : <a href="/concept/CombinationByBit/src/algorithm/concept/CombinationByBit.java">Java</a>
 * 다익스트라 알고리즘 (DijkstraAlgorithm)
-    - Source : <a href="/concept/DijkstraAlgorithm/src/algorithm/concept/DijkstraAlgorithm.java">Java</a>    
+    - Source : <a href="/concept/DijkstraAlgorithm/src/algorithm/concept/DijkstraAlgorithm.java">Java</a>  
+* 다익스트라 알고리즘(우선순위 큐) (DijkstraAlgorithmByPriorityQueue)
+    - Source : <a href="/concept/DijkstraAlgorithmByPriorityQueue/src/algorithm/concept/DijkstraAlgorithmByPriorityQueue.java">Java</a>          
 * 이분 탐색 (BinaraySearch)
     - Source : <a href="/concept/BinaraySearch/src/algorithm/concept/BinaraySearch.java">Java</a>      
