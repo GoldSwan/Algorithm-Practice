@@ -116,8 +116,10 @@
 
 #### 2022 KAKAO BLIND RECRUITMENT
 
-* P0053 신고 결과 받기(RankingSearch) : <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">Link</a>
+* P0053 신고 결과 받기(GetReportResults) : <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">Link</a>
     - Source : <a href="/programers/P0053_GetReportResults/src/algorithm/programers/GetReportResults.java">Java</a>
+* P0054 k진수에서 소수 개수 구하기(FindTheNumberOfDecimalsInKNumber) : <a href="https://programmers.co.kr/learn/courses/30/lessons/92335">Link</a>
+    - Source : <a href="/programers/P0054_FindTheNumberOfDecimalsInKNumber/src/algorithm/programers/FindTheNumberOfDecimalsInKNumber.java">Java</a>
 
 #### 2021 KAKAO BLIND RECRUITMENT
 
