@@ -27,6 +27,7 @@
     - Source : <a href="programers/P0012_BridgeCrossedTruck/goldswan/src/algorithm/programers/BridgeCrossedTruck.java">Java</a>
 * P0027 프린터(Printer) : <a href="https://programmers.co.kr/learn/courses/30/lessons/42587">Link</a>
     - Source : <a href="/programers/P0027_Printer/goldswan/src/algorithm/programers/Printer.java">Java</a>
+* P0060 올바른 괄호 (CorrectParentheses) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12909">Link</a>
 
 #### 힙(Heap)
 
@@ -197,6 +198,10 @@
 
 * B0001 미로탐색(2178MazeExploration) : <a href="https://www.acmicpc.net/problem/2178">Link</a>
     - Source : <a href="/baekjoon/B0001_2178MazeExploration/src/algorithm/baekjoon/Main.java">Java</a>
+
+#### LeetCode
+
+* L0001 621. Task Scheduler : <a href="https://leetcode.com/problems/task-scheduler/description/">Link</a>
 
 ### 개념정리
 
