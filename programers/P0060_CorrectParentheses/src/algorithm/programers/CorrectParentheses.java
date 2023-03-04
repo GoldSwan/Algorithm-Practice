@@ -4,60 +4,51 @@ import java.util.*;
 //스택을 이용한 풀이
 class Solution {
     boolean solution(String s) {
-        Stack<Character> stack = new Stack<>();
+        var parenthesesStack = new Stack<Character>();
         int sLength = s.length();
+
+        if(sLength%2 == 1) return false;
 
         for(int i = 0 ; i < sLength ; i++){
             char c = s.charAt(i);
             if(c == '('){
-                stack.push(c);
+                parenthesesStack.push(c);
                 continue;
             }
-            if(stack.isEmpty()) return false;
-            stack.pop();
+            if(parenthesesStack.isEmpty()) return false;
+            parenthesesStack.pop();
         }
 
-        return stack.isEmpty();
+        return parenthesesStack.isEmpty();
     }
 }
 
-//처음 시도했던 풀이 - 완전 탐색을 시도해보았으나 실패
-/*
-class Solution {
+//선형 탐색을 이용한 풀이
+class Solution2 {
     boolean solution(String s) {
-        List<String> sList = new ArrayList<>(Arrays.asList(s.split("")));
-        if(s.length()<=1)
-            return false;
-        if(s.length()%2 == 1) 
-            return false;
+        int sLength = s.length();
 
-        while(sList.size() > 0){
-            int i = 0;
-            while(i<sList.size()){
-                if(sList.get(i).equals(")")){
-                    if(i-1 < 0) return false;
-                    if(sList.get(i-1).equals("(")){
-                        sList.remove(i);
-                        sList.remove(i-1);
-                     break;
-                     }
-                }
-                i++;
-            }
-            if(sList.size() > 0 && i == sList.size()) 
-                return false;
+        if(sLength%2 == 1) return false;
+
+        int count = 0;
+        for(int i = 0 ; i < sLength ; i++){
+            char c = s.charAt(i);
+            count = (c == '(') ? ++count : --count;
+            if(count < 0) return false;
         }
 
-        return true;
+        return count == 0;
     }
 }
-*/
 
 public class CorrectParentheses {
     public static void main(String[] args) throws Exception {
         var solution = new Solution();
+        var solution2 = new Solution2();
         String s = "())(";
         boolean answer = solution.solution(s);
+        System.out.println("answer:"+answer);
+        answer = solution2.solution(s);
         System.out.println("answer:"+answer);
     }
 }
