@@ -4,24 +4,21 @@ import java.util.*;
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         var taskCntMap = createTaskCntMap(tasks);
-        var taskCntKeyList = new ArrayList<Character>(taskCntMap.keySet());
+        int maxTaskCnt = 0;
 
-        Collections.sort(taskCntKeyList, (key1, key2) -> taskCntMap.get(key2).compareTo(taskCntMap.get(key1)));//내림차순
+        for(var task : taskCntMap.keySet())
+            maxTaskCnt = Math.max(maxTaskCnt, taskCntMap.get(task));
 
-        int minTaskHour = (taskCntMap.get(taskCntKeyList.get(0))-1) * (n+1);
-        int maxTaskCnt = taskCntMap.get(taskCntKeyList.get(0));
+        int minTaskHour = (maxTaskCnt-1) * (n+1);
 
         int remain = 0;//가장 개수가 많은 task와 동일한 개수의 task를 찾아 나머지에 더해준다.
-        for(char task : taskCntKeyList){
-            int taskCnt = taskCntMap.get(task);
-            if(taskCnt == maxTaskCnt)
-                ++remain;
-        }
+        for(char task : taskCntMap.keySet())
+            remain = taskCntMap.get(task) == maxTaskCnt ? ++remain : remain;
 
         minTaskHour += remain;
 
         //remain에 가장 많은 task가 아닌 다른 task가 배치될 경우 tasks.length을 반환. 아래 input2 참고
-        return minTaskHour < tasks.length ? tasks.length : minTaskHour;
+        return minTaskHour = minTaskHour < tasks.length ? tasks.length : minTaskHour;
     }
 
     public Map<Character, Integer> createTaskCntMap(char[] tasks){
