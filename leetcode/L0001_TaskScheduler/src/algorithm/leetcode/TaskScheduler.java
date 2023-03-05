@@ -6,7 +6,7 @@ class Solution {
         var taskCntMap = createTaskCntMap(tasks);
         int maxTaskCnt = 0;
 
-        for(var task : taskCntMap.keySet())
+        for(char task : taskCntMap.keySet())
             maxTaskCnt = Math.max(maxTaskCnt, taskCntMap.get(task));
 
         int minTaskHour = (maxTaskCnt-1) * (n+1);
