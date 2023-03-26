@@ -16,7 +16,7 @@ class Solution {
 				//(currentDigitNumber-1) : 선택한 index의 오른쪽에 있는 숫자들이 최소 있어야 할 개수
 				//둘을 합하면 j + currentDigitNumber <= number의 숫자 개수가 되어야함.
 				//j <= currentDigitNumber - number.length() 이므로
-				//반복문이 돌때마다 1)length()를 호출하여 문자열 길이를 계산하는 연산과 2)상수 연산을 빼기 위해 우측 연산을 maxIndex 변수에 담음.
+				//반복문이 돌때마다 1)length()를 호출하여 문자열 길이를 계산하는 연산과 2)변수 연산을 빼기 위해 우측 연산을 maxIndex 변수에 담음.
 				if (max < number.charAt(j)) {
 					max = number.charAt(j);
 					index = j + 1;
