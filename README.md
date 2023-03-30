@@ -99,6 +99,7 @@
 
 * P0041 정수 삼각형(P0041_IntegerTriangle) : <a href="https://programmers.co.kr/learn/courses/30/lessons/43105">Link</a>
     - Source : <a href="/programers/P0041_IntegerTriangle/src/algorithm/programers/IntegerTriangle.java">Java</a>  
+* P0061 등굣길(P0061_TheWayToSchool) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42898">Link</a>
 
 #### LEVEL 1
 
@@ -206,6 +207,7 @@
     - Source : <a href="/leetcode/L0001_TaskScheduler/src/algorithm/leetcode/TaskScheduler.java">Java</a>
 * L0002 113. Path Sum II : <a href="https://leetcode.com/problems/path-sum-ii/">Link</a>
     - Source : <a href="/leetcode/L0002_PathSumII/src/algorithm/leetcode/PathSumII.java">Java</a>
+* L0003 78. Subsets : <a href="https://leetcode.com/problems/subsets/">Link</a>
 
 ### 개념정리
 
