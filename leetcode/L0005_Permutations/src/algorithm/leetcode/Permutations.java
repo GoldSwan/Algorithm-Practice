@@ -1,24 +1,18 @@
-package algorithm.programers;
+package algorithm.leetcode;
 import java.util.*;
 
 class Solution {
-    List<List<Integer>> reult = new ArrayList<>();
-    List<Integer> list = new ArrayList<>();
+    private final List<List<Integer>> result = new ArrayList<>();
+    private final List<Integer> list = new ArrayList<>();
     public List<List<Integer>> permute(int[] nums) {
-        int[] visited = new int[nums.length];
+        final int[] visited = new int[nums.length];
         createPermutation(nums, visited, 0);
-        return reult;
+        return result;
     }
 
     public void createPermutation(int[] nums, int[] visited, int depth){
         if(depth == nums.length){
-            //reult.add(list); //그냥 이렇게 넣어버렸더니 빈값으로 나옴. 객체 자체를 넣어서 그런듯. 복사하고 넣어야함.
-            
-            List<Integer> permutationList =  new ArrayList<>();//list에 담긴 값 복사할 permutationList 생성
-            for(int element : list){
-                permutationList.add(element);
-            }
-            reult.add(permutationList);
+            result.add(new ArrayList<>(list));//ArrayList 생성자를 이용하여 list 깊은 복사 후 result에 넣음
             return;
         }
         for(int i = 0 ; i < nums.length ; i++){
