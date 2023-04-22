@@ -214,8 +214,10 @@
     - Docs : <a href="/leetcode/L0003_Subsets/docs/L0003.jpg">Docs</a>
 * L0004 198. House Robber :  : <a href="https://leetcode.com/problems/house-robber/">Link</a>
     - Source : <a href="/leetcode/L0004_HouseRobber/src/algorithm/leetcode/HouseRobber.java">Java</a>
+    - Docs : <a href="/leetcode/L0004_HouseRobber/docs/L0004.jpg">Docs</a>
 * L0005 46. Permutations :  : <a href="https://leetcode.com/problems/permutations/">Link</a>
     - Source : <a href="/leetcode/L0005_Permutations/src/algorithm/leetcode/Permutations.java">Java</a>
+    - Docs : <a href="/leetcode/L0005_Permutations/docs/L0005.jpg">Docs</a>
 
 ### 개념정리
 
