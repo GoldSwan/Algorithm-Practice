@@ -20,15 +20,16 @@ package algorithm.leetcode;
 
 class Solution {
     public int rob(int[] nums) {
-        if(nums.length == 1){
+        //기정사실(이미 결정되어 있는 사실) : dp 점화식은 index가 2일 때부터 연산이 가능하고 index 0~1 일 경우는 최대이익이 이미 정해져있으므로 미리 계산하여 return 함.
+        if(nums.length == 1)
             return nums[0];
-        }
+
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
-        dp[1] = nums[0] > nums[1] ? nums[0] : nums[1];
+        dp[1] = Math.max(nums[0], nums[1]);
 
         if(nums.length <= 2)
-            return dp[nums.length-1];
+            return dp[1];
 
         for(int i = 2 ; i < dp.length ; i ++){
             if(dp[i-2] + nums[i] > dp[i-1]){
@@ -39,10 +40,24 @@ class Solution {
             }
         }
         return dp[nums.length-1];
-
     }
-}
+    //dp 배열을 쓰지 않고 이전 값을 변수에 저장하여 dp로 푸는 풀이
+    //장점
+    //1. 배열 메모리를 쓰지 않음. 2. 코드양이 적어서 깔끔함
+    //참고 : https://leetcode.com/problems/house-robber/solutions/3176206/solution/
+    public int rob2(int[] nums) {
+        int prev1 = 0;
+        int prev2 = 0;
 
+        for (final int num : nums) {
+          final int dp = Math.max(prev1, prev2 + num);
+          prev2 = prev1;
+          prev1 = dp;
+        }
+
+        return prev1;
+      }
+}
 
 public class HouseRobber {
     public static void main(String[] args) throws Exception {
