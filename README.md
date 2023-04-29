@@ -90,6 +90,7 @@
 * P0007 순위 (ranking) : <a href="https://programmers.co.kr/learn/courses/30/lessons/49191">Link</a>
     - Source : <a href="/programers/P0007_ranking/goldswan/ranking_goldswan.java">Java</a>    
 * P0062 방의 개수 (TheNumberOfRooms) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49190">Link</a>
+    - Source : <a href="/programers/P0062_TheNumberOfRooms/src/algorithm/programers/TheNumberOfRooms.java">Java</a>  
 
 #### 이분탐색
 
