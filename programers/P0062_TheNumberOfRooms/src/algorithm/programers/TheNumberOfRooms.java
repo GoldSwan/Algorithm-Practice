@@ -58,15 +58,19 @@ class Solution {
 
         @Override
         public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
+            if (this == o)
+                return true;
+            if (!(o instanceof Node))
+                return false;
             Node node = (Node) o;
             return x == node.x && y == node.y;
         }
 
         @Override
         public int hashCode() {
-            return Objects.hash(x, y);
+            int result = Integer.hashCode(x);
+            result = 31 * result + Integer.hashCode(y);
+            return result;
         }
     }
 }
