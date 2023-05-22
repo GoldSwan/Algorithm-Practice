@@ -122,6 +122,11 @@
 * P0046 카카오 프렌즈 컬러링북(P0046_ColoringBook) : <a href="https://programmers.co.kr/learn/courses/30/lessons/1829">Link</a>
     - Source : <a href="/programers/P0046_ColoringBook/src/algorithm/programers/ColoringBook.java">Java</a>
 
+#### 2022 KAKAO TECH INTERNSHIP
+
+* P0063 두 큐 합 같게 만들기(MakeTwoQueueSumSame) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118667?language=java">Link</a>
+    - Source : 
+    
 #### 2022 KAKAO BLIND RECRUITMENT
 
 * P0053 신고 결과 받기(GetReportResults) : <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">Link</a>
@@ -221,7 +226,9 @@
 * L0005 46. Permutations :  : <a href="https://leetcode.com/problems/permutations/">Link</a>
     - Source : <a href="/leetcode/L0005_Permutations/src/algorithm/leetcode/Permutations.java">Java</a>
     - Docs : <a href="/leetcode/L0005_Permutations/docs/L0005.jpg">Docs</a>
-
+* L0006 62. Unique Paths : <a href="https://leetcode.com/problems/unique-paths/">Link</a>
+    - Source : 
+    
 ### 개념정리
 
 * 순열 (Permutation)
