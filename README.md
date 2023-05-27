@@ -227,7 +227,7 @@
     - Source : <a href="/leetcode/L0005_Permutations/src/algorithm/leetcode/Permutations.java">Java</a>
     - Docs : <a href="/leetcode/L0005_Permutations/docs/L0005.jpg">Docs</a>
 * L0006 62. Unique Paths : <a href="https://leetcode.com/problems/unique-paths/">Link</a>
-    - Source :
+    - Source : <a href="/leetcode/L0006_UniquePaths/src/algorithm/leetcode/UniquePaths.java">Java</a>
 
 ### 개념정리
 
