@@ -125,8 +125,8 @@
 #### 2022 KAKAO TECH INTERNSHIP
 
 * P0063 두 큐 합 같게 만들기(MakeTwoQueueSumSame) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118667?language=java">Link</a>
-    - Source : 
-    
+    - Source : <a href="/programers/P0063_MakeTwoQueueSumSame/src/algorithm/programers/MakeTwoQueueSumSame.java">Java</a>
+
 #### 2022 KAKAO BLIND RECRUITMENT
 
 * P0053 신고 결과 받기(GetReportResults) : <a href="https://programmers.co.kr/learn/courses/30/lessons/92334">Link</a>
@@ -227,8 +227,8 @@
     - Source : <a href="/leetcode/L0005_Permutations/src/algorithm/leetcode/Permutations.java">Java</a>
     - Docs : <a href="/leetcode/L0005_Permutations/docs/L0005.jpg">Docs</a>
 * L0006 62. Unique Paths : <a href="https://leetcode.com/problems/unique-paths/">Link</a>
-    - Source : 
-    
+    - Source :
+
 ### 개념정리
 
 * 순열 (Permutation)
