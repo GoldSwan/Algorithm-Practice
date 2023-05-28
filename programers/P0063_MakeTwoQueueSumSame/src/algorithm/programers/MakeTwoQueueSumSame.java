@@ -73,10 +73,13 @@ public class MakeTwoQueueSumSame {
         //int[] queue1 = {3, 2, 7, 2}; int[] queue2 = {4, 6, 5, 1};
         //int[] queue1 = {1, 2, 1, 2}; int[] queue2 = {1, 10, 1, 2};
         //int[] queue1 = {1, 1, 1}; int[] queue2 = {1, 1, 1};
-        int[] queue1 = {1, 1, 1, 1, 1, 2}; int[] queue2 = {1, 1, 1, 1, 1, 4};
+        //int[] queue1 = {1, 1, 1, 1, 1, 2}; int[] queue2 = {1, 1, 1, 1, 1, 4};
         //시간초과 테스트 케이스 : q2 29만9999개가 모두 q1로 넘어가고 q2의 59만 9999개가 q1으로 넘어간 경우
         //int[] queue1 = {1, 1, 1, 1, 1, ... };/30만개
         //int[] queue2 = {1, 1, 1, 1, 1, ..., 599999 ,1};//30만개
+        //queue가 비게되는 경우
+        //int[] queue1 = {1}; int[] queue2 = {1000};
+        int[] queue1 = {2,3,2}; int[] queue2 = {8};
 
         int answer = Solution.solution(queue1, queue2);
         System.out.println(answer);
