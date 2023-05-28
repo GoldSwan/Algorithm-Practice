@@ -37,22 +37,18 @@ class Solution {
         if(q1Sum == q2Sum){
             return 0;
         }
-
-        while(true){
-            //최악의 루프가 실행될 때 시간초과를 빠져나오기 위하여 추가 (테스트케이스11, 28)
-            if(work > worstLoopSize){
-                return -1;
-            }
-            //두 큐의 합이 같으면 루프문을 빠져나온다.
-            if(q1Sum == q2Sum){
-                break;
-            }
+        //최악의 루프가 실행될 때 시간초과를 빠져나오기 위한 조건 (테스트케이스11, 28)
+        while(work <= worstLoopSize){
             //큐가 한개라도 비게 되면 두 큐의 합이 같을 수 없으므로 -1 리턴
             if(q1.isEmpty() || q2.isEmpty()){
                 return -1;
             }
+            //두 큐의 합이 같으면 작업을 리턴
+            if(q1Sum == q2Sum){
+                return work;
+            }
             //두 큐 중 합이 더 큰 큐의 수를 뽑아 반대편 큐에 넣고 합을 계산하여 반영
-            if(q1Sum > q2Sum){
+            else if(q1Sum > q2Sum){
                 int num = q1.poll();
                 q2.add(num);
                 q1Sum -= num;
@@ -67,8 +63,7 @@ class Solution {
                 work++;
             }
         }
-
-        return work;
+        return -1;
     }
 }
 
