@@ -124,7 +124,7 @@
 
 #### 2023 KAKAO BLIND RECRUITMENT
 
-* P0064 미로 탈출 명령어(MakeTwoQueueSumSame) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150365">Link</a>
+* P0064 미로 탈출 명령어(MazeEscapeCommand) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150365">Link</a>
     - Source : <a href="#">Java</a>
 
 #### 2022 KAKAO TECH INTERNSHIP
