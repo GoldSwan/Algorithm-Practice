@@ -5,21 +5,28 @@ import java.util.*;
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int target = 0;
-        Arrays.sort(nums);
+        Arrays.sort(nums);//탐색 효율성을 높이기 위해 오름차순 정렬
         Set<List<Integer>> set = new HashSet<>();
         List<List<Integer>> output = new ArrayList<>();
         for (int i = 0; i < nums.length; i++){
             int j = i + 1;
             int k = nums.length - 1;
+            //j와 k가 만나지 않을 때까지 순회
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
+                //합이 0일 경우 답안에 넣고 제외해야 하므로 j를 증가, k를 감소한다.
                 if (sum == target) {
+                    //set 자료구조를 사용하여 중복 리스트 제거
                     set.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     j++;
                     k--;
-                } else if (sum < target) {
+                }
+                //합이 음수일 경우 합이 증가해야 하므로 j를 증가한다.
+                else if (sum < target) {
                     j++;
-                } else {
+                }
+                //합이 양수일 경우 합이 감소해야 하므로 k를 감소한다.
+                else {
                     k--;
                 }
             }
