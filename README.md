@@ -129,8 +129,8 @@
 * P0065 표현 가능한 이진트리(RepresentableBinaryTree) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150367">Link</a>
     - Source : <a href="/programers/P0065_RepresentableBinaryTree/src/algorithm/programers/RepresentableBinaryTree.java">Java</a>
 * P0066 이모티콘 할인행사(EmojiDiscountEvent) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150368">Link</a>
-    - Source : <a href="#">Java</a>
-    
+    - Source : <a href="/programers/P0066_EmojiDiscountEvent/src/algorithm/programers/EmojiDiscountEvent.java">Java</a>
+
 #### 2022 KAKAO TECH INTERNSHIP
 
 * P0063 두 큐 합 같게 만들기(MakeTwoQueueSumSame) : <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118667?language=java">Link</a>
